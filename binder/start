@@ -1,1 +1,5 @@
-echo 'export A_VAR=a_value' >> .bashrc
+#!/bin/bash
+
+export A_VAR=a_value
+
+exec "$@"
