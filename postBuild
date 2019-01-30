@@ -1,1 +1,0 @@
-echo 'export A_VAR=a_value' >> .profile
